@@ -17,7 +17,9 @@ npm run preview
 
 ## The issue
 
-The error logged is the following : 
+When using the module `ThemeContext.Extend` provided by Grommet, the production build
+is broken with the following error:
+
 ```bash
 Error: Minified React error #130;
 visit https://reactjs.org/docs/error-decoder.html?invariant=130&args[]=undefined&args[]= for the
